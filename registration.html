@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration Form </title>
+    <style>
+      .container {
+        background-color: #D3D3D3;
+        width: 700px;
+        height: 720px;
+        margin: 0 auto;
+      }
+
+      .header {
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 200px;
+      }
+
+      form {
+        position: absolute;
+        margin-left: 70px;
+        margin-top: 110px;
+      }
+
+      label {
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="header"><u> Registration Form</u></h1>
+      <form action="">
+        <p>
+          <label for="firstname"> First Name: </label>
+          <input type="text" id="firstname"
+            style="position: absolute; margin-left: 30px; width: 300px; height: 30px; margin-top: -5px;">
+        </p>
+
+        <p>
+          <label for="lastname"> Last Name: </label>
+          <input type="text" id="lastname"
+            style="position: absolute; margin-left: 31px; width: 300px; height: 30px; margin-top: -5px;">
+        </p>
+
+        <p>
+          <label for="nickname"> Nick Name: </label>
+          <input type="text" id="nickname"
+            style="position: absolute; margin-left: 30px; width: 300px; height: 30px; margin-top: -5px;">
+        </p>
+
+        <p>
+          <label for="email"> Email: </label>
+          <input type="email" id="nickname"
+            style="position: absolute; margin-left: 79px; width: 300px; height: 30px; margin-top: -5px;">
+        </p>
+
+        <p>
+          <label for="password"> Password: </label>
+          <input type="password" id="password"
+            style="position: absolute; margin-left: 40px; width: 300px; height: 30px; margin-top: -5px;">
+        </p>
+
+        <p>
+          <label for="dob"> Date of Birth: </label>
+          <input type="date" id="dob"
+            style="position: absolute; margin-left: 18px; width: 301px; height: 30px; margin-top: -5px;">
+        </p>
+
+        <p>
+          <label for="gender"> Gender: </label>
+          <input type="radio" id="male" style="margin-left: 55px;">
+          <label for="male">Male</label>
+          <input type="radio" id="female">
+          <label for="male">Female</label>
+          <input type="radio" id="others">
+          <label for="male">Others</label>
+        </p>
+
+        <p>
+          <label for="mobileno"> Mobile: </label>
+          <input type="number" id="mobileno"
+            style="position: absolute; margin-left: 69px; width: 301px; height: 30px; margin-top: -5px;">
+        </p>
+
+        <p>
+          <label for="address"> Address: </label>
+          <textarea id="address" cols="30" rows="7"
+            style="position: absolute; margin-left: 57px; width: 300px;"></textarea>
+        </p>
+
+        <button style="position: absolute; margin-top: 90px; margin-left: 137px;">Submit </button>
+
+        <button style="position: absolute; margin-top: 90px; margin-left: 300px;"> Reset </button>
+      </form>
+    </div>
+  </body>
+
+</html>
